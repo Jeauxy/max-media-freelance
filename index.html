@@ -7,7 +7,8 @@
   <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
   </head>
   <body>
-    <div id="container">
+    <div id="container" style="width:100%">
+    <div id="sig">
     <p>Thanks,</p>
   </br>
     <p id="name">Janelle Jentz</p>
@@ -29,6 +30,7 @@
   </br>
     <p id="slogan">We MAXimize Your Marketing Results!</p>
   </div>
+</div>
   </body>
 
 
@@ -100,13 +102,14 @@
         padding: 0 12px;
       }
       #container{
-        width: 350px;
+        max-width: 350px;
         margin: 12px 12px;
       }
       #reviews p{
         color: #fff;
         padding: 6px 0px;
         font-size: 13px;
+        max-width: 350px;
       }
       #reviews a{
         text-decoration: none;
@@ -122,5 +125,8 @@
         font-family: 'Parisienne', cursive;
         font-size: 25px;
       }
+      @media screen and (max-width:350px) {
+      }
+
   </style>
 </html>
